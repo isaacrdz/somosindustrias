@@ -78,6 +78,13 @@ hr {
   box-shadow: none;
 } 
 
+.blue-label
+{
+  background: #1A65B6;
+  padding:  .3em;
+  width: 100px;
+}
+
 .btn-transparent {
   border: 3px solid #fff;
   background: transparent;
@@ -115,7 +122,7 @@ a:focus {
 }
 
 body > section {
-  padding: 70px 0;
+  padding: 30px 0;
 }
 
 .center {
@@ -173,9 +180,20 @@ body > section {
 /*************************
 *******Header******
 **************************/
+.info
+{
+  color: black;
+  margin: 0;
+  font-size: 10px;
+
+
+}
 
 #header .search{
   display: inline-block;
+  background: #f2f2f2;
+  border: 1px solid #0F4CA1;
+  border-radius:10px;
 }
 
 .navbar>.container .navbar-brand{
@@ -186,7 +204,7 @@ body > section {
   padding: 10px 0;
   background: #ffffff;
   border-bottom: 1px solid #222;
-  line-height: 28px;
+ /* line-height: 28px; */
 }
 
 .top-number{
@@ -215,7 +233,7 @@ ul.social-share li {
 ul.social-share li a {
   display: inline-block;
   color: #fff;
-  background: #404040;
+  background: #1A4B9A;
   width: 25px;
   height: 25px;
   line-height: 25px;
@@ -253,6 +271,11 @@ input.search-form:hover::-webkit-input-placeholder {
   color: #fff;
 }
 
+ .img-center
+  {
+    margin:0 auto;
+  }
+
 input.search-form:hover {
   width: 180px;
 }
@@ -276,14 +299,14 @@ input.search-form:hover {
 
 .navbar-nav>li{
   margin-left: 35px;
-  padding-bottom: 28px;
+  padding-bottom: 15px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
   padding: 5px 12px;
   margin: 0;
   border-radius: 3px;
-  color: #0F4CA1;
+  color: #FFFFFF;
   line-height: 24px;
   display: inline-block;
 }
@@ -362,9 +385,36 @@ input.search-form:hover {
 *******Home Page******
 **************************/
 
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.border-gray
+{
+  border: 2px solid gray;
+}
+
+.border-radius
+{
+  border-radius: 5px;
+}
 
 #main-slider {
   position: relative;
+
 }
 
 .no-margin {
@@ -373,7 +423,8 @@ input.search-form:hover {
 }
 
 #main-slider .carousel .carousel-content {
-  margin-top: 150px;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 
 #main-slider .carousel .slide-margin{
@@ -409,7 +460,7 @@ input.search-form:hover {
   position: absolute;
   width: 100%;
   display: block !important;
-  height: 730px;
+  height: 550px;
   -webkit-transition: opacity ease-in-out 500ms;
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
@@ -589,7 +640,7 @@ input.search-form:hover {
 }
 
 #recent-works{
-    padding-bottom: 70px;
+    padding-bottom:50px;
 }
 
 .recent-work-wrap {
@@ -1000,6 +1051,12 @@ a.accordion-toggle  i{
   color:#000;
 }
 
+.nav-background
+{
+  background: #0F4CA1;
+  border-radius: 5px;
+
+}
 /*************************
 ********* About Us Page CSS ******
 **************************/
@@ -1935,7 +1992,7 @@ ul.social_icons li  a i{
 
 .form-group .form-control {
   padding: 7px 12px;
-  border-color:#f2f2f2;
+  border-color:#CCCCCC;
   box-shadow: none;
 }
 
@@ -1954,6 +2011,11 @@ textarea#message{
 
 .widget {
   margin-bottom: 60px;
+  padding-left: 0;
+}
+
+.widget2 {
+  margin-bottom: 20px;
   padding-left: 0;
 }
 
@@ -2440,6 +2502,50 @@ ul.sidebar-gallery {
   text-transform: uppercase;
 }
 
+.blue-heading
+{
+  background: #012060;
+  color: white;
+  font-weight: bold;
+
+}
+
+.sky-blue-heading
+{
+  background: #0066FF;
+  color: white;
+  font-weight: bold;
+
+}
+
+.red-heading
+{
+  background: #C40000;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+.sky-blue-heading-2
+{
+  background: #1282ce;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.center-text
+{
+  text-align: center;
+}
+
+.blog-padding
+{
+  padding:.5em;
+}
+
 
 /******************
 shortcodes page css
@@ -2464,7 +2570,7 @@ shortcodes page css
 ************************/
 #bottom {
   background: #f5f5f5;
-  border-bottom: 5px solid #c52d2f;
+  
   font-size: 14px;
 }
 
@@ -2526,7 +2632,158 @@ shortcodes page css
 }
 
 
+.social-buttons
+{
+  display: inline-block;
+}
+/*Proveedores*/
+
+.proveedores {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #555555;
+  
+}
+
+.proveedores a {
+  color: #555555;
+}
+
+.proveedores a:hover {
+  color: #c52d2f;
+}
+
+.proveedores ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.proveedores ul > li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+
+.border-bottom
+{
+  border-bottom: 2px solid #A51D31;
+}
+
+
+.heading-color
+{
+  background: #E24F43;
+  padding: .5em;
+  color:white;
+}
+
+.heading-color-1
+{
+  background: #01669C;
+  padding: .5em;
+  color:white;
+}
+
+.heading-color-2
+{
+  background: #f78b28;
+  padding: .5em;
+  color:white;
+}
+
+.heading-color-3
+{
+  background: #007634;
+  padding: .5em;
+  color:white;
+}
+
+.heading-color-4
+{
+  background: #922F68;
+  padding: .5em;
+  color:white;
+}
+
+.heading-color-5
+{
+  background: #01669C;
+  padding: .5em;
+  color:white;
+}
+
+.heading-color-6
+{
+  background: #32F4B1;
+  padding: .5em;
+  color:white;
+}
+
+.heading-color-7
+{
+  background: #d19018;
+  padding: .5em;
+  color:white;
+}
+
+.heading-color-8
+{
+  background: #FF00CC;
+  padding: .5em;
+  color:white;
+}
+
+
+.heading-color-9
+{
+  background:#01669C;
+  padding: .5em;
+  color:white;
+}
+
+.heading-color-10
+{
+  background: #F04130;
+  padding: .5em;
+  color:white;
+}
 
 
 
 
+.heading-color a,.heading-color-1 a, .heading-color-2 a, .heading-color-3 a , .heading-color-4 a,.heading-color-5 a,.heading-color-6 a, .heading-color-7 a, .heading-color-8 a,.heading-color-9 a,.heading-color-10 a
+{
+  
+  color:white;
+  font-size: 12px;
+}
+
+
+.heading-color:hover a,
+.heading-color-1:hover a, 
+.heading-color-2:hover a,
+ .heading-color-3:hover a, 
+ .heading-color-4:hover a,
+ .heading-color-5:hover a,
+ .heading-color-6:hover a, 
+ .heading-color-7:hover a, 
+ .heading-color-8:hover a,
+ .heading-color-9:hover a,
+ .heading-color-10:hover a
+{
+  
+  color:white;
+}
+
+table tr th ,table tr td
+{
+  text-align: center;
+}
+
+.text-center
+{
+  text-align: center;
+  margin-bottom: 0;
+  
+}

@@ -107,6 +107,12 @@
       animation: fadeInUp 400ms;
   }
 
+.hola
+  {
+    display: none;
+  }
+
+
   .navbar-collapse {
     padding-left: 0;
     padding-right: 0;
@@ -172,6 +178,10 @@
     width: 24%;
   }
 
+
+
+
+
   .team-bar .third-arrow {
     width: 15%;
   }
@@ -187,6 +197,8 @@
 
 /* xs */
 @media (max-width: 767px) {
+
+
   .container > .navbar-header, .container > .navbar-collapse{
     margin-left: 0;
   }
@@ -291,13 +303,19 @@
   .post_reply_comments {
     padding-left: 20px;
   }
-    
+    .hola
+  {
+    display: none;
+  }
 
 }
 
 /* XS Portrait */
 @media (max-width: 480px) {
-
+.hola
+  {
+    display: none;
+  }
 
 }
 
