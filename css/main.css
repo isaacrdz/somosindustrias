@@ -423,12 +423,13 @@ input.search-form:hover {
 }
 
 #main-slider .carousel .carousel-content {
-  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 50px;
+  text-shadow: 1px 1px 8px #000000;
 }
 
 #main-slider .carousel .slide-margin{
-  margin-top: 140px;
+  margin-top: 300px;
 }
 
 #main-slider .carousel h2 {
@@ -526,7 +527,7 @@ input.search-form:hover {
   height: 24px;
   border-radius: 100%;
   background: rgba(0, 0, 0, 0);
-  border: 1px solid #FFF;
+  
   left: -3px;
   top: -3px;
 }
