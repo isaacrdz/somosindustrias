@@ -111,7 +111,12 @@
   {
     display: none;
   }
+.col-centered
+{
+    
+    margin: 0 auto;
 
+}
 
   .navbar-collapse {
     padding-left: 0;
@@ -197,7 +202,12 @@
 
 /* xs */
 @media (max-width: 767px) {
+.col-centered
+{
+    
+    margin: 0 auto;
 
+}
 
   .container > .navbar-header, .container > .navbar-collapse{
     margin-left: 0;

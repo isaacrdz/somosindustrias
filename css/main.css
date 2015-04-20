@@ -2788,3 +2788,11 @@ table tr th ,table tr td
   margin-bottom: 0;
   
 }
+
+
+.col-centered
+{
+    
+    margin: 0 auto;
+
+}
