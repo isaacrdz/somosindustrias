@@ -515,7 +515,7 @@ input.search-form:hover {
 #main-slider .carousel-indicators li {
   width: 20px;
   height: 20px;
-  background-color: #fff;
+  background-color: blue;
   margin: 0 15px 0 0;
   position: relative;
 }
@@ -2796,3 +2796,35 @@ table tr th ,table tr td
     margin: 0 auto;
 
 }
+
+
+/*slider-2*/
+ #slider-2 h2
+    {
+        color:white;
+        font-size: 45px;
+         text-shadow: 1px 1px 8px black;
+
+    }
+      #slider-2 p
+    {
+        color:white;
+        font-size: 20px;
+         text-shadow: 1px 1px 8px black;
+         font-size:22px;
+    }
+
+    #slider-2 .carousel-caption
+    {
+        
+        left:10px;
+        text-align: left;
+        margin-left: 70px;
+    }
+
+    #slider-2 ol
+    {
+        
+        bottom: -40px;
+
+    }
