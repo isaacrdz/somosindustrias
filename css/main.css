@@ -60,7 +60,10 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
-
+.shadow
+{
+  box-shadow: 5px 5px 5px #888888;
+}
 .btn-primary {
   padding: 8px 20px;
   background: #c52d2f;
